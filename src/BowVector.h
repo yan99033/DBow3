@@ -12,10 +12,11 @@
 
 #include <map>
 #include <vector>
+#include <ostream>
+#include <string>
 #include "exports.h"
-#if _WIN32
 #include <cstdint>
-#endif
+
 namespace DBoW3 {
 
 /// Id of words
